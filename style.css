@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+
+#header {
+  padding-top: 40px;
+  width: 90%;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.head-nav a {
+  margin-right: 40px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.signup .reg {
+  margin-right: 20px;
+  padding: 10px 30px;
+  align-items: center;
+  border-radius: 50px;
+  background: var(--light-gray, #f2f0fe);
+  color: var(--green, #1dbf73);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.signup .log-in {
+  padding: 10px 30px;
+  align-items: center;
+  border-radius: 50px;
+  background: var(--green, #1dbf73);
+  color: var(--white, #f6fafd);
+  font-size: 16px;
+  font-weight: 600;
+}
